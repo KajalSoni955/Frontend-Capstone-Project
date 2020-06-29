@@ -436,7 +436,28 @@ h6{
     margin-right: 6px;
     background:#c4302b;
 }
-@media
+@media(max-width: 768px){
+    .collab, #personal, #media, #address{
+        text-align:center;
+    }
+    .info ul{
+        margin: 0 0 0 -22px;
+        padding: 0;
+    }
+}
+/*work page*/
+/*about page*/
+.about{
+    height: 500px;
+    margin-top: 120px;
+}
+.image{
+    background:url('../img/four.jpg')no-repeat 50% 70%;
+}
+
+.wgt{
+    font-weight: lighter!important;
+}
 
 
 
