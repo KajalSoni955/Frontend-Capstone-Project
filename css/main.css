@@ -446,6 +446,26 @@ h6{
     }
 }
 /*work page*/
+.hero-content{
+    margin-left: 0%;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.hero-content p{
+    font-weight: 300;
+    color: grey;
+    line-height: 36px;
+}
+.hero-content h6{
+    text-align:left;
+}
+
+@media(max-width: 768px){
+    .hero-content{
+        padding-top: 50px;
+        width: 96%;
+    }
+}
 /*about page*/
 .about{
     height: 500px;
@@ -453,12 +473,18 @@ h6{
 }
 .image{
     background:url('../img/four.jpg')no-repeat 50% 70%;
+    filter: grayscale(100%);
+}
+.image:hover{
+    filter: none;
 }
 
 .wgt{
     font-weight: lighter!important;
 }
 
+/*project page*/
+/*contact page*/
 
 
 
