@@ -505,6 +505,7 @@ h6{
 }
 #contact-form li{
     padding: 10px;
+      border-bottom: 1px solid #dfdfdf;
 }
 #contact-form li:last-of-type{
     border-bottom: none;
